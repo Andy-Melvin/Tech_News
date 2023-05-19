@@ -75,10 +75,11 @@ hr{
 /********************/
 
 .nav-bar ul li{
-    text-align: center;
+    text-align: right;
     display: block;
     padding: 15px 0;
     transition: all 1s ease-in-out;
+  
 }
 
 .nav-bar ul li:hover{
@@ -88,6 +89,7 @@ hr{
 .nav-bar ul li a{
     color: #fff;
     text-transform: uppercase;
+    
 }
 
 .nav-bar ul li a:hover{
@@ -180,10 +182,12 @@ hr{
     width: 100%;
     padding: 12px;
     height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/banner-news-1.jpg);
 }
 
 .hot-topic img{
     display: block;
+    
 }
 
 .hot-topic-content{
@@ -358,6 +362,11 @@ footer p{
     margin: 0 20px;
 }
 
+.email input{
+    margin:550px;
+}
+body{}
+
 footer > p{
     text-align: center;
     opacity: 0.8;
@@ -522,3 +531,4 @@ footer > p{
     }
 }
 
+    
